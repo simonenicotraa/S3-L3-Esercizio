@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/stile.css">
+</head>
+<body>
+    <div id="contenitore_dati">
+<h1>Benvenuto</h1>
+<h2>inserisci i tuoi dati</h2>
+
+<input type="text" name="nome" id="inser_nome" placeholder="Inserisci il tuo nome">
+<input type="text" name="cognome" id="inser_cognome" placeholder="Inserisci il tuo cognome">
+<input type="number" name="eta" id="inser_eta" placeholder="Inserisci la tua età">
+<input type="email" name="email" id="inser_email" placeholder="Inserisci la tua email">
+
+<button type="button" onclick="registrati()">Registrati!</button>
+<hr>
+
+<p>Nome: <span id="nomeUt"></span></p>
+<p>Cognome: <span id="cognomeUT"></span></p>
+<p>Età:<span id="etaUt"></span> </p>
+<p>email: <span id="email"></span> </p>
+<p>Quanto alla pensione?<span id="pensione"></span></p>
+</div>
+<hr>
+
+
+<div id="contenitore_calc">
+
+<input type="number"  id="valore1" placeholder="Inserisci un valore">
+<input type="number" id="valore2" placeholder="Inserisci un valore">
+
+<button type="button" onclick="addizione()">+</button>
+<button type="button" onclick="sottrazione()">-</button>
+<button type="button" onclick="moltiplicazione()">x</button>
+<button type="button" onclick="divisione()">/</button>
+
+<h2 id="Risultato"></h2>
+</div>
+    
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

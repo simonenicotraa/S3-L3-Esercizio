@@ -1,0 +1,18 @@
+body{
+    width: 100%;
+    
+}
+.contenitore_dati{
+    background-color: azure;
+    width: 80%;
+    min-height: 100px ;
+    border: 1px 1px blue;
+    margin: auto;
+}
+.contenitore_calc{
+    background-color: azure;
+    width: 70%;
+    min-height: 10% ;
+    border: 1px 1px rgb(11, 119, 43);
+    margin: auto;
+}
